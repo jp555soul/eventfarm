@@ -1,0 +1,11 @@
+body{margin:0;padding:0;background-color: #eef1f6;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+h2{margin:25px auto;width: 280px;}
+header{height:100px;background-color:#4a90e2;border-bottom:solid 5px #3d7dc9;}
+section{background-color: #fff;border-radius: 10px;width:505px;height: 470px;margin:115px auto 250px auto;color:#4a90e2;}
+.tabs_header{height: 51px;background-color: #e0e5ee;border-radius: 10px 10px 0 0;}
+.arrow{margin:0 auto;width:84px;display: block;}
+input[type='file']{width:175px;height:25px;opacity:0}
+#button{cursor: pointer;display: block;width: 175px;border:1px solid #3d7dc9;background-color: #4a90e2;border-radius: 5px;height:50px;color: white;font-size: 15px;line-height:50px;text-align: center;-webkit-transition: 500ms all;-moz-transition: 500ms all;transition: 500ms all;margin:0 auto;}
+#button:hover{background-color: #3d7dc9;}
+.caption{font-size: 10px;color:gray;text-align: center;}
+.line{border-bottom:1px solid #4a90e2; width: 350px;margin: 55px auto;}
