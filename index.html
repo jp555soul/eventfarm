@@ -4,28 +4,30 @@
 	<meta charset="utf-8">
 	<title>EventFarm</title>
 	<meta name="description" content="EventFarm">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="containter">
-		<header></header>
+		<header><img class="center-block logo" src="img/logo.png" /></header>
 		<section>
 			<div id="tabs">
 				<div class="tabs_header">
-					<ul>
+					<ul class="nav nav-tabs">
 						<li><a href="#tabs-1">Upload</a></li>
 						<li><a href="#tabs-2">My Files</a></li>
-					<ul>
+					</ul>
 				</div>
 				<div id="tabs-1">
 					<h2>Please choose your file</h2>
 					<img class="arrow" src="img/arrowDown.png" />
-					<input type='file'>
+					<input type="file" id="images" name="files[]" multiple />
 		 			<span id='button'>Select File</span>
 		 			<p class="caption">50K max</p>
 		 		</div>
 				<div id="tabs-2">
 					<h2>Showing Files</h2>
+					<div id="output_image"></div>
 		 		</div>
 		 	</div>
  			<div class="line"></div>
