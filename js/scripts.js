@@ -31,7 +31,7 @@ $( document ).ready(function() {
 	        	localStorage.setItem('img', e.target.result);
 	        	localStorage.setItem('title', theImage.name);
 	        	localStorage.setItem('upload_date', date);
-
+    			$('.success').stop().fadeIn(400).delay(3000).fadeOut(400);
 	        };
 	    })(j);
 	    reader.readAsDataURL(j);
